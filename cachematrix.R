@@ -1,6 +1,13 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This is the second programming assignment in R-programming.
+## I will write an R function that is able to cache potentially 
+## time-consuming computations, specifically to streamline taking 
+## the mean of a very long numeric vector with repeated computations,
+## such as in a loop. 
+## This Programming Assignment takes advantage of the scoping rules 
+## of the R language and how they can be manipulated to preserve
+## the state inside of an R object.
 
+#Setting up the defaults
 knitr::opts_chunk$set(echo = TRUE, results = "asis")
 
 ## The first function, makeVector creates a special "vector", 
